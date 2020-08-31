@@ -1,21 +1,18 @@
-import React, { Component } from 'react';
-import CreateList from './CreateList';
-import Lists from './Lists';
+import React from 'react';
+import ListsContainer from '../containers/ListsContainer';
+import CreateListContainer from '../containers/CreateListContainer';
+import UsersContainer from '../containers/UsersContainer';
 
-// import defaultState from '../default-state.json';
-
-class Application extends Component {
-  render() {
-    return (
-      <main className="Application">
-        <div>{/* Users will go here! */}</div>
-        <section>
-          <CreateList />
-          <Lists />
-        </section>
-      </main>
-    );
-  }
-}
+const Application = () => {
+  return (
+    <main className="Application">
+      <UsersContainer />
+      <section>
+        <CreateListContainer />
+        <ListsContainer />
+      </section>
+    </main>
+  );
+};
 
 export default Application;

@@ -38,5 +38,17 @@
       "id": "1558196570597",
       "title": "Done"
     }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Jugunu Ofueneke",
+      "email": "jugu0@gmail.com"
+    },
+    {
+      "id": "2",
+      "name": "Lowo Lafia",
+      "email": "lowo.vs@lafia.com"
+    }
   ]
 }
